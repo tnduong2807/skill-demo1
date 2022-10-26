@@ -1,8 +1,10 @@
-import static org.junit.Assert.*;
-import org.junit.*;
+import static org.junit.Assert.assertEquals;
+
+import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
-import java.io.IOException;
+
+import org.junit.Test;
 
 public class TestDocSearch {
 	@Test 
