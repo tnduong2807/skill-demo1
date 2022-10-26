@@ -1,16 +1,17 @@
-import static org.junit.Assert.assertEquals;
-
-import java.io.IOException;
+import static org.junit.Assert.*;
+import org.junit.*;
 import java.net.URI;
 import java.net.URISyntaxException;
-
-import org.junit.Test;
+import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class TestDocSearch {
 	@Test 
 	public void testIndex() throws URISyntaxException, IOException {
     Handler h = new Handler("./technical/");
     URI rootPath = new URI("http://localhost/");
+    System.out.println(h.handleRequest(rootPath));
     assertEquals("There are 10 total files to search.", h.handleRequest(rootPath));
 	}
 	@Test 
