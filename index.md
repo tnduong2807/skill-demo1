@@ -1,6 +1,7 @@
 # Lab Report 4 –  Vim
 
 ## Part 1
+
 Changing the name of the `start` parameter and its uses to `base` using the vim commands:
 `/start<Enter>cebase<Escape>n.n.n.:wq<Enter>`
 
