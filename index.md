@@ -5,6 +5,58 @@
 Changing the name of the `start` parameter and its uses to `base` using the vim commands:
 `/start<Enter>cebase<Escape>n.n.n.:wq<Enter>`
 
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(86).png?raw=true)
+
+Keypresses `/start` got to this step and it is use to find all the string that is "start".
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(87).png?raw=true)
+
+Keypress `<Enter>` help got to this step and it use to go to the first "start" string after pressing `/start`.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(88).png?raw=true)
+
+Commands `ce` help got to this step and it is to delete the whole word and enter insert mode. c is to change and enter insert mode and e is use to move the cursor to the end of the word.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(89).png?raw=true)
+
+Keypresses `base` help got to this step and it just use to change the name "start" to "base".
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(90).png?raw=true)
+
+Keypress `<Escape>` help got to this step and it use to exit insert mode.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(91).png?raw=true)
+
+Keypress `n` help got to this step and it basically help move the cursor to the next "start" string in the program.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(92).png?raw=true)
+
+Keypress `.` help got to this step and it help repeat the last command which is `cebase<Escape>`.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(93).png?raw=true)
+
+Keypress `n` help got to this step and it basically help move the cursor to the next "start" string in the program.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(94).png?raw=true)
+
+Keypress `.` help got to this step and it help repeat the last command which is `cebase<Escape>`.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(95).png?raw=true)
+
+Keypress `n` help got to this step and it basically help move the cursor to the next "start" string in the program.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(96).png?raw=true)
+
+Keypress `.` help got to this step and it help repeat the last command which is `cebase<Escape>`.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(98).png?raw=true)
+
+Keypress `:wq` help got to this step and it basically tell vim that write and quit. Vim will save the changes and exit.
+
+![](https://github.com/tnduong2807/skill-demo1/blob/main/Screenshot%20(99).png?raw=true)
+
+Keypress `<Enter>` help got to this step and it help execute the command `:wq` and return to the terminal.
+
 ## Part 2
 
 First Style: I took 240 seconds to make the edit because the difficulties are finding where I need to edit, typing scp command and shh command take a lot of time.
